@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Logup</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="inserir.php" method="post">
+            <h1>Cadastrar User</h1>
+            <label for="Nome">Nome</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Email" required>
+            <label for="Senha">Senha</label>
+            <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+            <input type="submit" >
+            <p>Já tem uma Conta? <a href="login.html" id="toggle-register">Fazer Login aqui</a></p>
+        </form>
+    </div>
+</body>
+</html>

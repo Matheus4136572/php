@@ -1,17 +1,22 @@
-{ 
-   "functions": { 
-     "api/**/*.php": { "runtime": "vercel-php@0.4.1" } 
-   }, 
-   "rewrites": [ 
-     {  
-        "source": "/inser",  
-        "destination": "/api/inserir.php"  
-      }, 
-  
-     {  
-        "source": "/get",  
-        "destination": "/api/conexao.php"  
-      },    { "source": "/api/(.*)", "destination": "/api/$1" }, 
-     { "source": "/(.*)", "destination": "/$1" } 
-   ] 
- }
+{
+  "functions": {
+    "api/**/*.php": {
+      "runtime": {
+        "name": "vercel-php@0.4.1",
+        "node": "20.6.x"
+      }
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/inser",
+      "destination": "/api/inserir.php"
+    },
+    {
+      "source": "/get",
+      "destination": "/api/conexao.php"
+    },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}

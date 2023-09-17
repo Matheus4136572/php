@@ -10,7 +10,7 @@ $senha = $_POST['senha'];
 
 // Envie os dados para o banco de dados via API
 // Substitua os seguintes comandos pelos adequados para a sua API de banco de dados
-$api_url = "URL_DA_SUA_API";
+$api_url = "https://x8ki-letl-twmt.n7.xano.io/api:anqWhhT_/auth/login";
 $data = array(
     'nome' => $nome,
     'email' => $email,

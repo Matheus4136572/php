@@ -3,7 +3,7 @@
     "api/**/*.php": {
       "runtime": {
         "name": "vercel-php@0.4.1",
-        "node": "16.x"
+        "node": "vecrel-js@16.x"
       }
     }
   },
